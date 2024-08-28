@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./imagenes/Logo.png" alt="logo alura" class="logo">
+        <h1 class="titulo__pagina">Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="encriptador">
+            <textarea class="texto__area" cols="30" rows="10" placeholder="Ingresa tu texto aquí"></textarea>
+            <div>
+                <h1 class="informacion">Solo letras minúsculas y sin acentos</h1>
+            </div>
+            <div class="botones">
+                <button class="boton__encriptar" onclick="btnEncriptado()">Encriptar</button>
+                <button class="boton__desencriptar" onclick="btnDesencriptado()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="mensaje">
+            <textarea class="mensaje__area" cols="30" rows="10"></textarea>
+            <img src="Imagenes/Muñeco.png" alt="Muñeco" class="imagen__mensaje">
+
+            <div>
+                <button class="copiar" onclick="btn">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <p>Desarrollado por Zyatna Garrido</p>
+        </footer>
+</body>
+</html>

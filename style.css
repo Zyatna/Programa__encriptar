@@ -1,0 +1,108 @@
+*{
+    background-image: url("Imagenes/fondo.png");
+    background-size: cover;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.titulo__pagina{
+    color: #4F41C8;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+
+.logo{
+    padding-top: 15px;
+    width: 120x48;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+.texto__area{
+margin-left: 98px;
+margin-top: 20px;
+padding-left: 20px;
+margin-top: 90;
+text-transform: lowercase;
+}
+
+.informacion{
+color: #0A3871;
+outline: none;
+}
+
+.mensaje {
+    background-image: url("Muñeco.png"); 
+    padding-top: 0%;
+    align-items: center;
+    outline: none;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: 90;
+    background-position: center;
+    background-size: contain;
+}
+
+.imagen__mensaje{
+    position: absolute;
+    top: 200px;
+    align-items: center;
+    z-index: 1;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.copiar{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+}
+
+.boton__encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #4F41C8;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 20px;
+}
+
+.boton__desencriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #4F41C8;
+    cursor: pointer;
+    height: 67px;
+    width: 336px
+}
+.footer{
+    background-color:var(--color-terciario);
+    padding: 24px;
+    color:var(--color-primario);
+    text-align: center;
+    font-family: var(--fuente-monserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
